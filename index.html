@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <section class="header">
@@ -25,12 +26,18 @@
             <img src="img" alt="" srcset="">
         </div>
         <div class="info">
-            <ul class="body_ul">
-                <li><span>NAME:</span>Suril Pokharel</li>
-                <li><span>EMAIL:</span>surilpokharel4@gmail.com</li>
-                <li><span>PHONE:</span>9803383479</li>
-            </ul>
-        </div>
-    </section>
+           Hi!I am 
+           <span>Suril Pokharel</span><br>
+           I am<br>     
+           <span id="element"></span>
 </body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+           <script>
+             var typed = new Typed('#element', {
+               strings: ['Developer', 'UI/UX Designer','Content Writer'],
+               typeSpeed: 50,
+               
+             });
+           </script>
+         
 </html>
