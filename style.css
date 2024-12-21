@@ -28,12 +28,52 @@ div>ul>li>a:hover{
     display: flex;
     justify-content: space-between;
 }
-.info{
-    margin-top: 100px;
+.info1{
+    margin-top: 200px;
     font-size: 65px;
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 200px;
+    
 }
-.info>span{
+.info1>span{
     color: blueviolet;
+}
+.info1>button{
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 10px 0 10px 0;
+    transition: 0.2s ease;
+}
+
+.info1>button:hover{
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 10px 0 10px 0;
+    transform: scale(1.2);
+    
+}
+
+hr{
+    border-top: 5px solid purple;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.about{
+    display: flex;
+    
+    margin-top: 30px;
+}
+.info2 , .img2 {
+    width: 50%;
+    justify-content: space-between;
+    
+}
+.info2{
+    font-size: x-large;
+    text-align: center;
 }
