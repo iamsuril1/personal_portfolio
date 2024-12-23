@@ -1,11 +1,10 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
     <section class="header">
@@ -24,19 +23,18 @@
     </section>
     <section class="main"> 
         <div class="img1">
-            <img src="img" alt="" srcset="">
+            <img src="image/IMG_0768.jpg" alt="Profile Image">
         </div>
         <div class="info1">
-           Hi!I am 
-           <span>Suril Pokharel</span><br>
-           I am   
-           <span id="element"></span><br>
-           <button id="btn1">Github</button>
-           <button id="btn1">Contact Me</button>
+            Hi! I am 
+            <span>Suril Pokharel</span><br>
+            I am   
+            <span id="element"></span><br>
+            <button id="btn1">Github</button>
+            <button id="btn1">Contact Me</button>
         </div>
-        
     </section>
-    <hr>
+    <hr class="firstHr">
     <section class="about" id="about">
         <div class="info2"> 
             I am an aspiring frontend developer with a strong focus on JavaScript and its frameworks. I am dedicated to building responsive and interactive web applications that prioritize user experience. Currently, I am honing my skills through projects like a weather app. My goal is to contribute to innovative web solutions while continuously learning and improving in the tech field.
@@ -44,15 +42,17 @@
         <div class="img2">
             <img src="" >    
         </div>
+    </section>
+    <hr class="secondHr">
+    <section>
     </section>   
 </body>
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-           <script>
-             var typed = new Typed('#element', {
-               strings: ['Developer', 'UI/UX Designer','Content Writer'],
-               typeSpeed: 50,
-               loop:true,
-             });
-           </script>
-         
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Developer', 'UI/UX Designer','Content Writer'],
+        typeSpeed: 50,
+        loop:true,
+    });
+</script>
 </html>
